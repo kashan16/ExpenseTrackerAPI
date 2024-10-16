@@ -35,3 +35,6 @@ build/
 ### ALL TXT ###
 *.txt
 
+### Enviroment Variables ###
+*.env
+
