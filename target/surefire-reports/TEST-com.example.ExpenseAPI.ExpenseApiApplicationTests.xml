@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.example.ExpenseAPI.ExpenseApiApplicationTests" time="7.863" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="PATH" value="/home/kashan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/21/bin:/home/kashan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest/bin:/home/kashan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/maven/latest/bin:/home/kashan/.bun/bin:/home/kashan/.bun/bin:/home/kashan/.yarn/bin:/home/kashan/.config/yarn/global/node_modules/.bin:/home/kashan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/17/bin:/home/kashan/.cargo/bin:/home/kashan/.local/bin:/home/kashan/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin"/>
+    <property name="NVM_RC_VERSION" value=""/>
+    <property name="LOCPATH_VSCODE_SNAP_ORIG" value=""/>
+    <property name="XMODIFIERS" value="@im=ibus"/>
+    <property name="java.specification.version" value="21"/>
+    <property name="GDMSESSION" value="ubuntu"/>
+    <property name="GTK_EXE_PREFIX_VSCODE_SNAP_ORIG" value=""/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="DBUS_SESSION_BUS_ADDRESS" value="unix:path=/run/user/1000/bus"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="COLORTERM" value="truecolor"/>
+    <property name="USERNAME" value="kashan"/>
+    <property name="SESSION_MANAGER" value="local/KASHAN-PC:@/tmp/.ICE-unix/2491,unix/KASHAN-PC:/tmp/.ICE-unix/2491"/>
+    <property name="VSCODE_GIT_ASKPASS_NODE" value="/snap/code/172/usr/share/code/code"/>
+    <property name="TERM_PROGRAM_VERSION" value="1.94.2"/>
+    <property name="PWD" value="/home/kashan/ExpenseAPI"/>
+    <property name="MANAGERPID" value="2340"/>
+    <property name="sun.boot.library.path" value="/home/kashan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/21/lib"/>
+    <property name="LANGUAGE" value="en_IN:en"/>
+    <property name="sun.java.command" value="/home/kashan/ExpenseAPI/target/surefire/surefirebooter-20241017005435289_3.jar /home/kashan/ExpenseAPI/target/surefire 2024-10-17T00-54-35_120-jvmRun1 surefire-20241017005435289_1tmp surefire_0-20241017005435289_2tmp"/>
+    <property name="GJS_DEBUG_TOPICS" value="JS ERROR;JS LOG"/>
+    <property name="NVM_CD_FLAGS" value=""/>
+    <property name="jdk.debug" value="release"/>
+    <property name="LESSOPEN" value="| /usr/bin/lesspipe %s"/>
+    <property name="CHROME_DESKTOP" value="code-url-handler.desktop"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-10-15"/>
+    <property name="java.home" value="/home/kashan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/21"/>
+    <property name="GDK_BACKEND_VSCODE_SNAP_ORIG" value=""/>
+    <property name="basedir" value="/home/kashan/ExpenseAPI"/>
+    <property name="file.separator" value="/"/>
+    <property name="GNOME_DESKTOP_SESSION_ID" value="this-is-deprecated"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="GTK_MODULES" value="gail:atk-bridge"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="GIO_MODULE_DIR_VSCODE_SNAP_ORIG" value=""/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="GNOME_SETUP_DISPLAY" value=":1"/>
+    <property name="SHLVL" value="1"/>
+    <property name="DATABASE_PASSWORD" value="VGMyp7SCdn58cWJV"/>
+    <property name="GIO_MODULE_DIR" value="/home/kashan/snap/code/common/.cache/gio-modules"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.5+11-LTS"/>
+    <property name="JAVA_HOME" value="/home/kashan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/java/21"/>
+    <property name="user.name" value="kashan"/>
+    <property name="TERM" value="xterm-256color"/>
+    <property name="XDG_CONFIG_DIRS" value="/etc/xdg/xdg-ubuntu:/etc/xdg"/>
+    <property name="DATABASE_URL" value="jdbc:postgresql://aws-0-ap-south-1.pooler.supabase.com:6543/postgres?"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="AUTO_CONFIG_PATH" value="/home/kashan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/gradle/latest/bin:/home/kashan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/maven/latest/bin"/>
+    <property name="WAYLAND_DISPLAY" value="wayland-0"/>
+    <property name="java.vendor.version" value="Temurin-21.0.5+11"/>
+    <property name="localRepository" value="/home/kashan/.m2/repository"/>
+    <property name="_" value="/home/kashan/.config/Code/User/globalStorage/pleiades.java-extension-pack-jdk/maven/latest/bin/mvn"/>
+    <property name="XDG_SESSION_CLASS" value="user"/>
+    <property name="java.io.tmpdir" value="/tmp"/>
+    <property name="com.zaxxer.hikari.pool_number" value="1"/>
+    <property name="java.version" value="21.0.5"/>
+    <property name="TERM_PROGRAM" value="vscode"/>
+    <property name="GTK_EXE_PREFIX" value="/snap/code/172/usr"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="DESKTOP_SESSION" value="ubuntu"/>
+    <property name="MAVEN_PROJECTBASEDIR" value="/home/kashan/ExpenseAPI"/>
+    <property name="PID" value="125739"/>
+    <property name="XDG_MENU_PREFIX" value="gnome-"/>
+    <property name="QT_ACCESSIBILITY" value="1"/>
+    <property name="GSETTINGS_SCHEMA_DIR_VSCODE_SNAP_ORIG" value=""/>
+    <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib"/>
+    <property name="stderr.encoding" value="UTF-8"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="XDG_CONFIG_DIRS_VSCODE_SNAP_ORIG" value="/etc/xdg/xdg-ubuntu:/etc/xdg"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="LOGGED_APPLICATION_NAME" value="[ExpenseAPI] "/>
+    <property name="XAUTHORITY" value="/run/user/1000/.mutter-Xwaylandauth.G9WLV2"/>
+    <property name="INVOCATION_ID" value="0e35ace67a0f4352acdde763d5131d5a"/>
+    <property name="XDG_DATA_DIRS" value="/home/kashan/snap/code/172/.local/share:/home/kashan/snap/code/172:/snap/code/172/usr/share:/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"/>
+    <property name="java.class.path" value="/home/kashan/ExpenseAPI/target/test-classes:/home/kashan/ExpenseAPI/target/classes:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.3.5-SNAPSHOT/spring-boot-starter-data-jpa-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.3.5-SNAPSHOT/spring-boot-starter-aop-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-aop/6.1.14-SNAPSHOT/spring-aop-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/aspectj/aspectjweaver/1.9.22.1/aspectjweaver-1.9.22.1.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.3.5-SNAPSHOT/spring-boot-starter-jdbc-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar:/home/kashan/.m2/repository/org/springframework/spring-jdbc/6.1.14-SNAPSHOT/spring-jdbc-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/hibernate/orm/hibernate-core/6.5.3.Final/hibernate-core-6.5.3.Final.jar:/home/kashan/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/kashan/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/kashan/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/home/kashan/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/home/kashan/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/home/kashan/.m2/repository/com/fasterxml/classmate/1.7.0/classmate-1.7.0.jar:/home/kashan/.m2/repository/net/bytebuddy/byte-buddy/1.14.19/byte-buddy-1.14.19.jar:/home/kashan/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar:/home/kashan/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/home/kashan/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/home/kashan/.m2/repository/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.jar:/home/kashan/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/home/kashan/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/kashan/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/home/kashan/.m2/repository/org/springframework/data/spring-data-jpa/3.3.5-SNAPSHOT/spring-data-jpa-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/data/spring-data-commons/3.3.5-SNAPSHOT/spring-data-commons-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-orm/6.1.14-SNAPSHOT/spring-orm-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-context/6.1.14-SNAPSHOT/spring-context-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-tx/6.1.14-SNAPSHOT/spring-tx-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-beans/6.1.14-SNAPSHOT/spring-beans-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/kashan/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/home/kashan/.m2/repository/org/springframework/spring-aspects/6.1.14-SNAPSHOT/spring-aspects-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.3.5-SNAPSHOT/spring-boot-starter-web-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter/3.3.5-SNAPSHOT/spring-boot-starter-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot/3.3.5-SNAPSHOT/spring-boot-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.3.5-SNAPSHOT/spring-boot-autoconfigure-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.3.5-SNAPSHOT/spring-boot-starter-logging-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/ch/qos/logback/logback-classic/1.5.10/logback-classic-1.5.10.jar:/home/kashan/.m2/repository/ch/qos/logback/logback-core/1.5.10/logback-core-1.5.10.jar:/home/kashan/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.23.1/log4j-to-slf4j-2.23.1.jar:/home/kashan/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:/home/kashan/.m2/repository/org/slf4j/jul-to-slf4j/2.0.16/jul-to-slf4j-2.0.16.jar:/home/kashan/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.3.5-SNAPSHOT/spring-boot-starter-json-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar:/home/kashan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar:/home/kashan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar:/home/kashan/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.2/jackson-datatype-jdk8-2.17.2.jar:/home/kashan/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2.jar:/home/kashan/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.17.2/jackson-module-parameter-names-2.17.2.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.3.5-SNAPSHOT/spring-boot-starter-tomcat-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.31/tomcat-embed-core-10.1.31.jar:/home/kashan/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.31/tomcat-embed-el-10.1.31.jar:/home/kashan/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.31/tomcat-embed-websocket-10.1.31.jar:/home/kashan/.m2/repository/org/springframework/spring-web/6.1.14-SNAPSHOT/spring-web-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/io/micrometer/micrometer-observation/1.13.6/micrometer-observation-1.13.6.jar:/home/kashan/.m2/repository/io/micrometer/micrometer-commons/1.13.6/micrometer-commons-1.13.6.jar:/home/kashan/.m2/repository/org/springframework/spring-webmvc/6.1.14-SNAPSHOT/spring-webmvc-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-expression/6.1.14-SNAPSHOT/spring-expression-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar:/home/kashan/.m2/repository/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar:/home/kashan/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.3.5-SNAPSHOT/spring-boot-starter-test-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-test/3.3.5-SNAPSHOT/spring-boot-test-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.3.5-SNAPSHOT/spring-boot-test-autoconfigure-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/home/kashan/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/home/kashan/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/home/kashan/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/home/kashan/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/home/kashan/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/home/kashan/.m2/repository/org/assertj/assertj-core/3.25.3/assertj-core-3.25.3.jar:/home/kashan/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar:/home/kashan/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/kashan/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.5/junit-jupiter-5.10.5.jar:/home/kashan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.5/junit-jupiter-api-5.10.5.jar:/home/kashan/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/kashan/.m2/repository/org/junit/platform/junit-platform-commons/1.10.5/junit-platform-commons-1.10.5.jar:/home/kashan/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/kashan/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.5/junit-jupiter-params-5.10.5.jar:/home/kashan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.5/junit-jupiter-engine-5.10.5.jar:/home/kashan/.m2/repository/org/junit/platform/junit-platform-engine/1.10.5/junit-platform-engine-1.10.5.jar:/home/kashan/.m2/repository/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar:/home/kashan/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.19/byte-buddy-agent-1.14.19.jar:/home/kashan/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/kashan/.m2/repository/org/mockito/mockito-junit-jupiter/5.11.0/mockito-junit-jupiter-5.11.0.jar:/home/kashan/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/home/kashan/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/kashan/.m2/repository/org/springframework/spring-core/6.1.14-SNAPSHOT/spring-core-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-jcl/6.1.14-SNAPSHOT/spring-jcl-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-test/6.1.14-SNAPSHOT/spring-test-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/home/kashan/.m2/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar:/home/kashan/.m2/repository/io/github/cdimascio/dotenv-java/3.0.0/dotenv-java-3.0.0.jar:"/>
+    <property name="XDG_DATA_DIRS_VSCODE_SNAP_ORIG" value="/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="VSCODE_GIT_IPC_HANDLE" value="/run/user/1000/vscode-git-86ab7316dc.sock"/>
+    <property name="XDG_CURRENT_DESKTOP" value="Unity"/>
+    <property name="JOURNAL_STREAM" value="8:20111"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="org.jboss.logging.provider" value="slf4j"/>
+    <property name="os.name" value="Linux"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="LOGNAME" value="kashan"/>
+    <property name="DATABASE_USERNAME" value="postgres.urqwelneslpjscdckakc"/>
+    <property name="GTK_PATH" value="/snap/code/172/usr/lib/x86_64-linux-gnu/gtk-3.0"/>
+    <property name="GIT_ASKPASS" value="/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass.sh"/>
+    <property name="IM_CONFIG_PHASE" value="1"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="SHELL" value="/bin/bash"/>
+    <property name="surefire.test.class.path" value="/home/kashan/ExpenseAPI/target/test-classes:/home/kashan/ExpenseAPI/target/classes:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-data-jpa/3.3.5-SNAPSHOT/spring-boot-starter-data-jpa-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-aop/3.3.5-SNAPSHOT/spring-boot-starter-aop-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-aop/6.1.14-SNAPSHOT/spring-aop-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/aspectj/aspectjweaver/1.9.22.1/aspectjweaver-1.9.22.1.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-jdbc/3.3.5-SNAPSHOT/spring-boot-starter-jdbc-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/com/zaxxer/HikariCP/5.1.0/HikariCP-5.1.0.jar:/home/kashan/.m2/repository/org/springframework/spring-jdbc/6.1.14-SNAPSHOT/spring-jdbc-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/hibernate/orm/hibernate-core/6.5.3.Final/hibernate-core-6.5.3.Final.jar:/home/kashan/.m2/repository/jakarta/persistence/jakarta.persistence-api/3.1.0/jakarta.persistence-api-3.1.0.jar:/home/kashan/.m2/repository/jakarta/transaction/jakarta.transaction-api/2.0.1/jakarta.transaction-api-2.0.1.jar:/home/kashan/.m2/repository/org/jboss/logging/jboss-logging/3.5.3.Final/jboss-logging-3.5.3.Final.jar:/home/kashan/.m2/repository/org/hibernate/common/hibernate-commons-annotations/6.0.6.Final/hibernate-commons-annotations-6.0.6.Final.jar:/home/kashan/.m2/repository/io/smallrye/jandex/3.1.2/jandex-3.1.2.jar:/home/kashan/.m2/repository/com/fasterxml/classmate/1.7.0/classmate-1.7.0.jar:/home/kashan/.m2/repository/net/bytebuddy/byte-buddy/1.14.19/byte-buddy-1.14.19.jar:/home/kashan/.m2/repository/org/glassfish/jaxb/jaxb-runtime/4.0.5/jaxb-runtime-4.0.5.jar:/home/kashan/.m2/repository/org/glassfish/jaxb/jaxb-core/4.0.5/jaxb-core-4.0.5.jar:/home/kashan/.m2/repository/org/eclipse/angus/angus-activation/2.0.2/angus-activation-2.0.2.jar:/home/kashan/.m2/repository/org/glassfish/jaxb/txw2/4.0.5/txw2-4.0.5.jar:/home/kashan/.m2/repository/com/sun/istack/istack-commons-runtime/4.1.2/istack-commons-runtime-4.1.2.jar:/home/kashan/.m2/repository/jakarta/inject/jakarta.inject-api/2.0.1/jakarta.inject-api-2.0.1.jar:/home/kashan/.m2/repository/org/antlr/antlr4-runtime/4.13.0/antlr4-runtime-4.13.0.jar:/home/kashan/.m2/repository/org/springframework/data/spring-data-jpa/3.3.5-SNAPSHOT/spring-data-jpa-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/data/spring-data-commons/3.3.5-SNAPSHOT/spring-data-commons-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-orm/6.1.14-SNAPSHOT/spring-orm-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-context/6.1.14-SNAPSHOT/spring-context-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-tx/6.1.14-SNAPSHOT/spring-tx-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-beans/6.1.14-SNAPSHOT/spring-beans-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/jakarta/annotation/jakarta.annotation-api/2.1.1/jakarta.annotation-api-2.1.1.jar:/home/kashan/.m2/repository/org/slf4j/slf4j-api/2.0.16/slf4j-api-2.0.16.jar:/home/kashan/.m2/repository/org/springframework/spring-aspects/6.1.14-SNAPSHOT/spring-aspects-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-web/3.3.5-SNAPSHOT/spring-boot-starter-web-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter/3.3.5-SNAPSHOT/spring-boot-starter-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot/3.3.5-SNAPSHOT/spring-boot-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-autoconfigure/3.3.5-SNAPSHOT/spring-boot-autoconfigure-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-logging/3.3.5-SNAPSHOT/spring-boot-starter-logging-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/ch/qos/logback/logback-classic/1.5.10/logback-classic-1.5.10.jar:/home/kashan/.m2/repository/ch/qos/logback/logback-core/1.5.10/logback-core-1.5.10.jar:/home/kashan/.m2/repository/org/apache/logging/log4j/log4j-to-slf4j/2.23.1/log4j-to-slf4j-2.23.1.jar:/home/kashan/.m2/repository/org/apache/logging/log4j/log4j-api/2.23.1/log4j-api-2.23.1.jar:/home/kashan/.m2/repository/org/slf4j/jul-to-slf4j/2.0.16/jul-to-slf4j-2.0.16.jar:/home/kashan/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-json/3.3.5-SNAPSHOT/spring-boot-starter-json-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.17.2/jackson-databind-2.17.2.jar:/home/kashan/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.17.2/jackson-annotations-2.17.2.jar:/home/kashan/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.17.2/jackson-core-2.17.2.jar:/home/kashan/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jdk8/2.17.2/jackson-datatype-jdk8-2.17.2.jar:/home/kashan/.m2/repository/com/fasterxml/jackson/datatype/jackson-datatype-jsr310/2.17.2/jackson-datatype-jsr310-2.17.2.jar:/home/kashan/.m2/repository/com/fasterxml/jackson/module/jackson-module-parameter-names/2.17.2/jackson-module-parameter-names-2.17.2.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-tomcat/3.3.5-SNAPSHOT/spring-boot-starter-tomcat-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/apache/tomcat/embed/tomcat-embed-core/10.1.31/tomcat-embed-core-10.1.31.jar:/home/kashan/.m2/repository/org/apache/tomcat/embed/tomcat-embed-el/10.1.31/tomcat-embed-el-10.1.31.jar:/home/kashan/.m2/repository/org/apache/tomcat/embed/tomcat-embed-websocket/10.1.31/tomcat-embed-websocket-10.1.31.jar:/home/kashan/.m2/repository/org/springframework/spring-web/6.1.14-SNAPSHOT/spring-web-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/io/micrometer/micrometer-observation/1.13.6/micrometer-observation-1.13.6.jar:/home/kashan/.m2/repository/io/micrometer/micrometer-commons/1.13.6/micrometer-commons-1.13.6.jar:/home/kashan/.m2/repository/org/springframework/spring-webmvc/6.1.14-SNAPSHOT/spring-webmvc-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-expression/6.1.14-SNAPSHOT/spring-expression-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/com/mysql/mysql-connector-j/8.3.0/mysql-connector-j-8.3.0.jar:/home/kashan/.m2/repository/org/postgresql/postgresql/42.6.0/postgresql-42.6.0.jar:/home/kashan/.m2/repository/org/checkerframework/checker-qual/3.31.0/checker-qual-3.31.0.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-starter-test/3.3.5-SNAPSHOT/spring-boot-starter-test-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-test/3.3.5-SNAPSHOT/spring-boot-test-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/boot/spring-boot-test-autoconfigure/3.3.5-SNAPSHOT/spring-boot-test-autoconfigure-3.3.5-SNAPSHOT.jar:/home/kashan/.m2/repository/com/jayway/jsonpath/json-path/2.9.0/json-path-2.9.0.jar:/home/kashan/.m2/repository/jakarta/xml/bind/jakarta.xml.bind-api/4.0.2/jakarta.xml.bind-api-4.0.2.jar:/home/kashan/.m2/repository/jakarta/activation/jakarta.activation-api/2.1.3/jakarta.activation-api-2.1.3.jar:/home/kashan/.m2/repository/net/minidev/json-smart/2.5.1/json-smart-2.5.1.jar:/home/kashan/.m2/repository/net/minidev/accessors-smart/2.5.1/accessors-smart-2.5.1.jar:/home/kashan/.m2/repository/org/ow2/asm/asm/9.6/asm-9.6.jar:/home/kashan/.m2/repository/org/assertj/assertj-core/3.25.3/assertj-core-3.25.3.jar:/home/kashan/.m2/repository/org/awaitility/awaitility/4.2.2/awaitility-4.2.2.jar:/home/kashan/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/home/kashan/.m2/repository/org/junit/jupiter/junit-jupiter/5.10.5/junit-jupiter-5.10.5.jar:/home/kashan/.m2/repository/org/junit/jupiter/junit-jupiter-api/5.10.5/junit-jupiter-api-5.10.5.jar:/home/kashan/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/home/kashan/.m2/repository/org/junit/platform/junit-platform-commons/1.10.5/junit-platform-commons-1.10.5.jar:/home/kashan/.m2/repository/org/apiguardian/apiguardian-api/1.1.2/apiguardian-api-1.1.2.jar:/home/kashan/.m2/repository/org/junit/jupiter/junit-jupiter-params/5.10.5/junit-jupiter-params-5.10.5.jar:/home/kashan/.m2/repository/org/junit/jupiter/junit-jupiter-engine/5.10.5/junit-jupiter-engine-5.10.5.jar:/home/kashan/.m2/repository/org/junit/platform/junit-platform-engine/1.10.5/junit-platform-engine-1.10.5.jar:/home/kashan/.m2/repository/org/mockito/mockito-core/5.11.0/mockito-core-5.11.0.jar:/home/kashan/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.19/byte-buddy-agent-1.14.19.jar:/home/kashan/.m2/repository/org/objenesis/objenesis/3.3/objenesis-3.3.jar:/home/kashan/.m2/repository/org/mockito/mockito-junit-jupiter/5.11.0/mockito-junit-jupiter-5.11.0.jar:/home/kashan/.m2/repository/org/skyscreamer/jsonassert/1.5.3/jsonassert-1.5.3.jar:/home/kashan/.m2/repository/com/vaadin/external/google/android-json/0.0.20131108.vaadin1/android-json-0.0.20131108.vaadin1.jar:/home/kashan/.m2/repository/org/springframework/spring-core/6.1.14-SNAPSHOT/spring-core-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-jcl/6.1.14-SNAPSHOT/spring-jcl-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/springframework/spring-test/6.1.14-SNAPSHOT/spring-test-6.1.14-SNAPSHOT.jar:/home/kashan/.m2/repository/org/xmlunit/xmlunit-core/2.9.1/xmlunit-core-2.9.1.jar:/home/kashan/.m2/repository/org/projectlombok/lombok/1.18.34/lombok-1.18.34.jar:/home/kashan/.m2/repository/io/github/cdimascio/dotenv-java/3.0.0/dotenv-java-3.0.0.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/home/kashan"/>
+    <property name="user.language" value="en"/>
+    <property name="GIO_LAUNCHED_DESKTOP_FILE" value="/var/lib/snapd/desktop/applications/code_code.desktop"/>
+    <property name="OLDPWD" value="/home/kashan/ExpenseAPI"/>
+    <property name="BUN_INSTALL" value="/home/kashan/.bun"/>
+    <property name="BAMF_DESKTOP_FILE_HINT" value="/var/lib/snapd/desktop/applications/code_code.desktop"/>
+    <property name="ORIGINAL_XDG_CURRENT_DESKTOP" value="ubuntu:GNOME"/>
+    <property name="FILE_LOG_CHARSET" value="UTF-8"/>
+    <property name="NVM_IOJS_ORG_MIRROR" value="https://iojs.org/dist"/>
+    <property name="LOCPATH" value="/snap/code/172/usr/lib/locale"/>
+    <property name="java.awt.headless" value="true"/>
+    <property name="SYSTEMD_EXEC_PID" value="2522"/>
+    <property name="LS_COLORS" value="rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:"/>
+    <property name="XDG_SESSION_DESKTOP" value="ubuntu"/>
+    <property name="SSH_AGENT_LAUNCHER" value="gnome-keyring"/>
+    <property name="surefire.real.class.path" value="/home/kashan/ExpenseAPI/target/surefire/surefirebooter-20241017005435289_3.jar"/>
+    <property name="LESSCLOSE" value="/usr/bin/lesspipe %s %s"/>
+    <property name="QT_IM_MODULE" value="ibus"/>
+    <property name="stdout.encoding" value="UTF-8"/>
+    <property name="path.separator" value=":"/>
+    <property name="LANG" value="en_US.UTF-8"/>
+    <property name="XDG_SESSION_TYPE" value="wayland"/>
+    <property name="os.version" value="6.8.0-45-generic"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="VSCODE_GIT_ASKPASS_MAIN" value="/snap/code/172/usr/share/code/resources/app/extensions/git/dist/askpass-main.js"/>
+    <property name="DISPLAY" value=":0"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="VSCODE_GIT_ASKPASS_EXTRA_ARGS" value=""/>
+    <property name="NVM_NODEJS_ORG_MIRROR" value="https://nodejs.org/dist"/>
+    <property name="MAVEN_CMD_LINE_ARGS" value=" clean package"/>
+    <property name="GTK_PATH_VSCODE_SNAP_ORIG" value=""/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="NVM_DIR" value="/home/kashan/.nvm"/>
+    <property name="user.dir" value="/home/kashan/ExpenseAPI"/>
+    <property name="GDK_BACKEND" value="x11"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="USER" value="kashan"/>
+    <property name="GIO_LAUNCHED_DESKTOP_FILE_PID" value="115827"/>
+    <property name="GJS_DEBUG_OUTPUT" value="stderr"/>
+    <property name="SSH_AUTH_SOCK" value="/run/user/1000/keyring/ssh"/>
+    <property name="GTK_IM_MODULE_FILE_VSCODE_SNAP_ORIG" value=""/>
+    <property name="GTK_IM_MODULE_FILE" value="/home/kashan/snap/code/common/.cache/immodules/immodules.cache"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vm.version" value="21.0.5+11-LTS"/>
+    <property name="GNOME_SHELL_SESSION_MODE" value="ubuntu"/>
+    <property name="GSETTINGS_SCHEMA_DIR" value="/home/kashan/snap/code/172/.local/share/glib-2.0/schemas"/>
+    <property name="IM_CONFIG_CHECK_ENV" value="1"/>
+    <property name="java.class.version" value="65.0"/>
+    <property name="XDG_RUNTIME_DIR" value="/run/user/1000"/>
+    <property name="HOME" value="/home/kashan"/>
+  </properties>
+  <testcase name="contextLoads" classname="com.example.ExpenseAPI.ExpenseApiApplicationTests" time="0.708">
+    <system-out><![CDATA[00:54:36.442 [main] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.ExpenseAPI.ExpenseApiApplicationTests]: ExpenseApiApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+00:54:36.590 [main] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.ExpenseAPI.ExpenseApiApplication for test class com.example.ExpenseAPI.ExpenseApiApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::       (v3.3.5-SNAPSHOT)
+
+2024-10-17T00:54:37.138+05:30  INFO 125739 --- [ExpenseAPI] [           main] c.e.E.ExpenseApiApplicationTests         : Starting ExpenseApiApplicationTests using Java 21.0.5 with PID 125739 (started by kashan in /home/kashan/ExpenseAPI)
+2024-10-17T00:54:37.140+05:30  INFO 125739 --- [ExpenseAPI] [           main] c.e.E.ExpenseApiApplicationTests         : No active profile set, falling back to 1 default profile: "default"
+2024-10-17T00:54:38.163+05:30  INFO 125739 --- [ExpenseAPI] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-10-17T00:54:38.245+05:30  INFO 125739 --- [ExpenseAPI] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 73 ms. Found 1 JPA repository interface.
+2024-10-17T00:54:38.916+05:30  INFO 125739 --- [ExpenseAPI] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-10-17T00:54:38.984+05:30  INFO 125739 --- [ExpenseAPI] [           main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-10-17T00:54:39.032+05:30  INFO 125739 --- [ExpenseAPI] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-10-17T00:54:39.371+05:30  INFO 125739 --- [ExpenseAPI] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-10-17T00:54:39.440+05:30  INFO 125739 --- [ExpenseAPI] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-10-17T00:54:40.926+05:30  INFO 125739 --- [ExpenseAPI] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@54bb1194
+2024-10-17T00:54:40.928+05:30  INFO 125739 --- [ExpenseAPI] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-10-17T00:54:41.033+05:30  WARN 125739 --- [ExpenseAPI] [           main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-10-17T00:54:42.056+05:30  INFO 125739 --- [ExpenseAPI] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-10-17T00:54:42.293+05:30  INFO 125739 --- [ExpenseAPI] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-10-17T00:54:42.789+05:30  WARN 125739 --- [ExpenseAPI] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-10-17T00:54:43.320+05:30  INFO 125739 --- [ExpenseAPI] [           main] c.e.E.ExpenseApiApplicationTests         : Started ExpenseApiApplicationTests in 6.534 seconds (process running for 7.869)
+]]></system-out>
+    <system-err><![CDATA[WARNING: A Java agent has been loaded dynamically (/home/kashan/.m2/repository/net/bytebuddy/byte-buddy-agent/1.14.19/byte-buddy-agent-1.14.19.jar)
+WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading to hide this warning
+WARNING: If a serviceability tool is not in use, please run with -Djdk.instrument.traceUsage for more information
+WARNING: Dynamic loading of agents will be disallowed by default in a future release
+]]></system-err>
+  </testcase>
+</testsuite>
