@@ -1,8 +1,6 @@
----
-
 # Expense Tracker API
 
-An API for managing personal expenses, built using Spring Boot. This application allows users to create, read, update, and delete (CRUD) expenses. The expenses are stored in a relational database, and the API supports JSON-based communication.
+An API for managing personal expenses, built using Spring Boot. This application allows users to create, read, update, and delete (CRUD) expenses. The expenses are stored in a Supabase database, and the API supports JSON-based communication.
 
 ## Features
 
@@ -16,7 +14,8 @@ An API for managing personal expenses, built using Spring Boot. This application
 ## Tech Stack
 
 - **Backend**: Spring Boot (Java)
-- **Database**: JPA with H2 (or other compatible relational database)
+- **Database**: Supabase (PostgreSQL)
+- **Hosting**: Railway
 - **Dependencies**:
   - `spring-boot-starter-data-jpa`
   - `spring-boot-starter-web`
@@ -32,8 +31,7 @@ An API for managing personal expenses, built using Spring Boot. This application
    ```
 
 2. **Set up the database**:
-   - By default, the application uses an in-memory H2 database.
-   - You can configure a different database in `application.properties` by adding the necessary connection details.
+   - Configure your Supabase database connection in `application.properties` by adding the necessary connection details. Ensure your Supabase credentials are properly set.
 
 3. **Run the application**:
    - If you are using Maven, you can start the application with:
@@ -43,7 +41,7 @@ An API for managing personal expenses, built using Spring Boot. This application
    - Alternatively, run the `ExpenseTrackerApiApplication` class directly from your IDE.
 
 4. **Access the API**:
-   - The API is available at `http://localhost:8080/api/expense`.
+   - The API is available at `https://expensetrackerapi-production-4874.up.railway.app/api/expense`.
 
 ## API Endpoints
 
@@ -75,7 +73,7 @@ Once the application is running, you can interact with the API using tools like 
 Example request to add an expense:
 
 ```bash
-curl -X POST http://localhost:8080/api/expense \
+curl -X POST https://expensetrackerapi-production-4874.up.railway.app/api/expense \
 -H "Content-Type: application/json" \
 -d '{
   "title": "Groceries",
