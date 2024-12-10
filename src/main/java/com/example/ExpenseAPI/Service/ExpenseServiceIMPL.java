@@ -9,7 +9,9 @@ import org.springframework.stereotype.Service;
 
 import com.example.ExpenseAPI.DTO.ExpenseDTO;
 import com.example.ExpenseAPI.Entity.Expense;
+import com.example.ExpenseAPI.Entity.User;
 import com.example.ExpenseAPI.Repository.ExpenseRepository;
+import com.example.ExpenseAPI.Repository.UserRepository;
 
 import jakarta.persistence.EntityNotFoundException;
 import lombok.RequiredArgsConstructor;
@@ -18,9 +20,20 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 public class ExpenseServiceIMPL implements ExpenseService {
     private final ExpenseRepository expenseRepository;
+    private final UserRepository userRepository;
 
     public Expense postExpense(ExpenseDTO expenseDTO) {
-        return saveOrUpdate(new Expense(), expenseDTO);
+        User user = userRepository.findById(expenseDTO.getUserId())
+        .orElseThrow(() -> new EntityNotFoundException("User not found with ID: " + expenseDTO.getUserId()));
+    
+        Expense expense = new Expense();
+        expense.setTitle(expenseDTO.getTitle());
+        expense.setDescription(expenseDTO.getDescription());
+        expense.setCategory(expenseDTO.getCategory());
+        expense.setAmount(expenseDTO.getAmount());
+        expense.setUser(user);
+
+        return expenseRepository.save(expense);
     }
 
 
