@@ -6,7 +6,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import io.github.cdimascio.dotenv.Dotenv;
 
-@SpringBootTest
+@SpringBootTest(classes = ExpenseApiApplication.class)
 class ExpenseApiApplicationTests {
 
     @BeforeAll
