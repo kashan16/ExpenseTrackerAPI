@@ -1,9 +1,7 @@
 /home/kashan/ExpenseTrackerAPI/src/main/java/com/example/ExpenseAPI/Controller/ExpenseController.java
 /home/kashan/ExpenseTrackerAPI/src/main/java/com/example/ExpenseAPI/DTO/ExpenseDTO.java
 /home/kashan/ExpenseTrackerAPI/src/main/java/com/example/ExpenseAPI/Entity/Expense.java
-/home/kashan/ExpenseTrackerAPI/src/main/java/com/example/ExpenseAPI/Entity/User.java
 /home/kashan/ExpenseTrackerAPI/src/main/java/com/example/ExpenseAPI/ExpenseApiApplication.java
 /home/kashan/ExpenseTrackerAPI/src/main/java/com/example/ExpenseAPI/Repository/ExpenseRepository.java
-/home/kashan/ExpenseTrackerAPI/src/main/java/com/example/ExpenseAPI/Repository/UserRepository.java
 /home/kashan/ExpenseTrackerAPI/src/main/java/com/example/ExpenseAPI/Service/ExpenseService.java
 /home/kashan/ExpenseTrackerAPI/src/main/java/com/example/ExpenseAPI/Service/ExpenseServiceIMPL.java
